@@ -84,13 +84,13 @@ body {
     width: 100vw;
     min-width: 1200px;
     position: absolute;
-    bottom: -75px;     
+    bottom: -162px;     
 }
 
 .bottom-bar {
     background-color: #e4e2dd;
     width: 100vw;
-    height: 170px;
+    height: 120px;
     position: relative;
     overflow: visible;
 }
