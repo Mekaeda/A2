@@ -1,0 +1,149 @@
+body {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+  background-color: #e4e2dd;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.top-bar {
+    height: 140px;
+}
+
+.header-clip {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-banner {
+    background-color: #ff3131;
+    border-bottom: 40px solid #fff;
+    position: relative;
+    /* REMOVE overflow: hidden; from here! */
+}
+
+.hero-eyes {
+    width: 110vw;
+    min-width: 1400px;
+    position: relative;
+    top: 10px;           
+    left: 49%;        
+    transform: translate(-50%, -50%); 
+}
+
+.hero-h1 {
+  font-size: clamp(50px, 8vw, 85px) !important;
+  position: relative;
+  bottom: 60px;
+}
+
+.hero-p {
+  font-size: clamp(11.2px, 1.5vw, 17px);
+  position: relative;
+  bottom: 50px;
+  padding-top: 5px;
+}
+
+.footer-h2 {
+  font-size: clamp(50px, 8vw, 85px);
+}
+
+.footer-p {
+  font-size: clamp(11.2px, 1.5vw, 17px);
+  position: relative;
+  padding-top: 8px;
+}
+
+.footer-clip {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-banner {
+    background-color: #ff3131;
+    border-top: 35px solid #fff;
+    border-bottom: 35px solid #fff;
+    width: 100vw;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.bottom-bar-hands {
+    width: 100vw;
+    min-width: 1200px;
+    position: absolute;
+    bottom: -75px;     
+}
+
+.bottom-bar {
+    background-color: #e4e2dd;
+    width: 100vw;
+    height: 170px;
+    position: relative;
+    overflow: visible;
+}
+
+.grid {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.item {
+  width: 25%;
+  height: 25vw;
+  padding: 0;
+  position: absolute;
+}
+
+.item-content1 {
+  width: 100%;
+  height: 100%;
+  background-color: #e4e2dd;
+  cursor: grab;
+}
+
+.item-content2 {
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  cursor: grab;
+}
+
+.item, item-content, canvas {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none !important;
+}
+
+#clothCanvas, #planeCanvas, #houseCanvas, #seagulCanvas, #heartCanvas, #dummyCanvas, #fishCanvas, #logoCanvas, #skullCanvas, #toasterCanvas, #helmetCanvas, #ufoCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    touch-action: none; 
+}
+
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+
