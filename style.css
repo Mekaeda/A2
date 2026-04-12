@@ -29,7 +29,6 @@ body {
     background-color: #ff3131;
     border-bottom: 40px solid #fff;
     position: relative;
-    /* REMOVE overflow: hidden; from here! */
 }
 
 .hero-eyes {
